@@ -77,7 +77,7 @@ target 'authrn' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'authrmTests' do
+  target 'authrnTests' do
     inherit! :complete
     # Pods for testing
   end

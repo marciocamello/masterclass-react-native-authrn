@@ -33,7 +33,7 @@ export const AuthProvider: React.FC = ({children}) => {
         api.defaults.headers.Authorization = `Bearer ${storagedToken}`;
 
         setUser(JSON.parse(storagedUser));
-        setLoading(false);
+        setLoading(true);
       }
     }
 

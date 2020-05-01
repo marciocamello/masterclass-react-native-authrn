@@ -1,5 +1,5 @@
 {
-  "name": "authrm",
+  "name": "authrn",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -41,13 +41,6 @@
   },
   "jest": {
     "preset": "react-native",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
   }
 }
