@@ -10,14 +10,13 @@ const styles = StyleSheet.create({
 });
 
 const SingIn: React.FC = () => {
-  async function handleSingIn() {
-    const response = await signIn();
-    console.log(response);
+  function handleSingIn() {
+    authService;
   }
 
   return (
     <View style={styles.container}>
-      <Button title="Sign In" onPress={handleSingIn} />
+      <Button title="Sign In" onPress={() => {}}></Button>
     </View>
   );
 };

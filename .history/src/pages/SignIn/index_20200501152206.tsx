@@ -17,7 +17,7 @@ const SingIn: React.FC = () => {
 
   return (
     <View style={styles.container}>
-      <Button title="Sign In" onPress={handleSingIn} />
+      <Button title="Sign In" onPress={() => {}}></Button>
     </View>
   );
 };
